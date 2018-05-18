@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge 1</title>
+    <style media="screen">
+    .website {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+flex-direction: column;
+}
+
+.contact-pic img {
+width: 600px;
+height: 400px;
+border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding:  14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <main class="website">
+      <!-- html mark up goes here -->
+      <h1>Tulip Nail Salon</h1>
+      <ul active>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="product.asp">Products</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+      <div class="contact-pic">
+        <img src="https://media4.s-nbcnews.com/j/newscms/2016_19/1087901/manicure-nail-salon-today-160513-tease-03_39550a583b7c96ffdca34e6ba9cc3503.focal-760x380.jpg"/>
+        <p>
+          Welcome to <b>Tulip Nail Salon</b>
+        </p>
+        <p>
+          You can contact us at: <a href="https://www.google.com"target="blank" target="blank">Tulip Nail Salon</a>
+        </p>
+      </div>
+      <div class="contact-me">
+        <form action="dummyaction">
+          <label>Email</label>
+          <input type="text" name="email"></input>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
